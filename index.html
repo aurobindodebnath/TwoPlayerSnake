@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Snake Game v2.0</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="Style/style.css"/>
+	</head>
+	<body onLoad="f();run()">				
+		<div class="indexheader">
+			<div class="box">
+				<div class="dis" id="S">S</div>
+				<div class="dis" id="N">N</div>
+				<div class="dis" id="A">A</div>
+				<div class="dis" id="K">K</div>
+				<div class="dis" id="E">E</div>
+			</div>
+			<div class="empty"></div>
+		</div>
+		<div class="container">
+			<div id="player2">0</div>
+			<div id="time">--</div>
+			<div id="player1">0</div>
+			<div class="empty"></div>
+			<canvas id="myCanvas" height="350px" width="350px"></canvas>
+			<footer>&copy; Snake v2.0<br/>Aurobindo Debnath</footer>
+		</div>
+		<script src="JS/board.js"></script>
+		<script src="JS/snake1.js"></script>
+		<script src="JS/snake2.js"></script>
+		<script src="JS/event.js"></script>
+		<script src="JS/food.js"></script>
+		<script src="JS/animation.js"></script>
+	</body>
+	
+</html>

@@ -1,0 +1,97 @@
+
+*{
+	margin: 0px;
+    padding:0px;
+}
+body{
+	background-color: #0a484c;
+}
+@-webkit-keyframes ani{
+	100%{
+		transform: rotateX(0deg) skewX(0deg);
+		}
+	0%{
+		transform: rotateX(90deg) skewX(-15deg);
+	}
+}
+	
+			#myCanvas{
+				background-color: #ddd;
+				margin: 10px 5px;
+			}
+			#player1{
+				height: 50px;
+				width: 75px;
+				background-color: silver;
+				border-radius: 10px;
+				color: red;
+				font: bold normal 40px Verdana;
+				float:left;
+				text-align: center;
+				margin: 10px 20px;
+			}
+			#time{
+				height: 42px;
+				width: 100px;
+				padding-top:8px;
+				background-color: silver;
+				border-radius: 10px;
+				color: black;
+				font: bold normal 30px Verdana;
+				float:left;
+				text-align: center;
+				margin: 10px 15px;
+			}
+			#player2{
+				height: 50px;
+				width: 75px;
+				background-color: silver;
+				border-radius: 10px;
+				color: blue;
+				font: bold normal 40px Verdana;
+				float: left;
+				text-align: center;
+				margin: 10px 20px;
+			}
+			.container{
+				margin: 5px auto 0px auto;
+				border-radius: 5px;
+				width: 360px;
+				background-color: #1d1e40;
+			}
+
+			.dis {
+			    height: 50px;
+			    width: 40px;
+   				background-color: #d6c87e;
+			    margin: 20px 4px;
+			    padding: 10px;
+			    text-align: center;
+			    visibility: hidden;
+			    border-radius: 8px;
+			    font: bold normal 40px Verdana;
+			    float: left;
+			    color: #563636;
+			}
+
+			.dis:hover{
+				transform: scale(1.1);
+			}
+			.indexheader{
+			    background-color: #1a171b;
+    			height: 110px;
+			}
+			.box{
+			    margin: 0px auto;
+   				height: 200px;
+    			width: 350px;
+			}
+			footer{
+				background-color:#1a171b;
+				text-align: center;
+				color:gold;
+				margin-top: 10px;
+			}
+			.empty{
+				clear: both;
+			} 
