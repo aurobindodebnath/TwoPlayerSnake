@@ -47,17 +47,17 @@ function run()
 	{
 		if(score1>score2)
 		{	
-			alert("<strong>RED WINS</strong>");
+			alert("RED WINS");
 			location.reload();
 		}
 		else if(score1<score2)
 		{
-			alert("<strong>BLUE WINS</strong>");
+			alert("BLUE WINS");
 			location.reload();
 		}
 		else
 		{
-			alert("<strong>DRAW</strong>");
+			alert("DRAW");
 			location.reload();
 		}
 	}
