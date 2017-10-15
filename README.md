@@ -2,7 +2,7 @@
 
 Two Player Snake is a mini-game where you can play with your friend- take on the red or the blue team, chomp your food and attack each other to gain points!
 
-![alt tag](https://github.com/aurobindodebnath/TwoPlayerSnake/blob/re/readmeintro.png)
+![alt tag](https://github.com/aurobindodebnath/TwoPlayerSnake/blob/master/readmeintro.png)
 
 ## Latest News
 
